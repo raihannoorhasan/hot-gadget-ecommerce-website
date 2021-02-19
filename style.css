@@ -1,0 +1,70 @@
+.nav-item a{
+    font-size: 25px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 5px;
+    /* border-radius: 50rem; */
+    background-color: gray;
+}
+.carousel-indicators .active {
+    background-color: orange;
+    width: 40px;
+    height: 5px;
+    /* border-radius: 20rem; */
+
+}
+
+.car-sec{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.topper a{
+    text-decoration: none;
+    color: orange;
+}
+.card{
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.card img{
+    width: 70%;
+}
+.mr-tp{
+    margin-top: 90px;
+}
+.topper{
+    margin-bottom: 30px;
+}
+.bg{
+    background-color: white;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.15);
+    padding: 50px;
+    width: 250px;
+    border-radius: 15px;
+}
+.mrg{
+    margin-bottom: 35px;
+}
+
+.category h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.underline{
+    border-bottom: 5px solid orange;
+    width: 90px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height: 4px;
+}
